@@ -4,6 +4,7 @@ namespace ERP_System;
 
 public class ProductDetailPage : Screen
 {
+    private int Test { get; set; }
     public override string Title { get; set; } = "Product";
 
     protected override void Draw()
