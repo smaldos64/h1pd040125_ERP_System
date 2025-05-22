@@ -6,6 +6,7 @@ public class ProductDetailPage : Screen
 {
     private int Test { get; set; }
     private int Test1 { get; set; }
+    private int Test2 { get; set; }
     public override string Title { get; set; } = "Product";
 
     protected override void Draw()
